@@ -13,8 +13,8 @@
 		F2B4B6B320E6613B001E041B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B4B6B220E6613B001E041B /* Assets.xcassets */; };
 		F2B4B6B620E6613B001E041B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B4B6B420E6613B001E041B /* LaunchScreen.storyboard */; };
 		F2B4B6B920E6613B001E041B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B4B6B820E6613B001E041B /* main.m */; };
-		F2B4B6C020E6614D001E041B /* UserIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B4B6BF20E6614D001E041B /* UserIQ.framework */; };
-		F2B4B6C120E6614D001E041B /* UserIQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2B4B6BF20E6614D001E041B /* UserIQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F2B6736A20EA57D300216F19 /* UserIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B6736920EA57D300216F19 /* UserIQ.framework */; };
+		F2B6736B20EA57D300216F19 /* UserIQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2B6736920EA57D300216F19 /* UserIQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F2B4B6C120E6614D001E041B /* UserIQ.framework in Embed Frameworks */,
+				F2B6736B20EA57D300216F19 /* UserIQ.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +42,7 @@
 		F2B4B6B520E6613B001E041B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2B4B6B720E6613B001E041B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B4B6B820E6613B001E041B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2B4B6BF20E6614D001E041B /* UserIQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserIQ.framework; sourceTree = "<group>"; };
+		F2B6736920EA57D300216F19 /* UserIQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserIQ.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B4B6C020E6614D001E041B /* UserIQ.framework in Frameworks */,
+				F2B6736A20EA57D300216F19 /* UserIQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 		F2B4B69D20E66138001E041B = {
 			isa = PBXGroup;
 			children = (
-				F2B4B6BF20E6614D001E041B /* UserIQ.framework */,
+				F2B6736920EA57D300216F19 /* UserIQ.framework */,
 				F2B4B6A820E66139001E041B /* Sample App */,
 				F2B4B6A720E66139001E041B /* Products */,
 			);

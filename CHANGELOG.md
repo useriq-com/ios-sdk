@@ -3,6 +3,11 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [1.0.1] - 2018-07-02
+
+#### Fixed
+
+* Bug Fix : Text color change for in-app modal heading and body
 ---
 
 ### [1.0.0] - 2018-06-29

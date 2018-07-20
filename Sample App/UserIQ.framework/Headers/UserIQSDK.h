@@ -31,7 +31,7 @@
           andParameters:(NSDictionary <NSString *, NSString*> * _Nullable)parameters;
 
 /**
- Get the version of the Appunfold SDK
+ Get the version of the UserIQ SDK
 
  @return version
  */

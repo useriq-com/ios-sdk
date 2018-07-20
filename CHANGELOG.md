@@ -3,6 +3,14 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [1.0.3] - 2018-07-20
+
+#### Added
+
+- Host support 
+
+---
+
 ### [1.0.2] - 2018-07-20
 
 #### Added

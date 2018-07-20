@@ -20,6 +20,13 @@
  */
 + (UserIQSDK * _Nonnull) sharedInstance;
 
+/**
+ Only required for UserIQ developers. To be called before SDK initialization
+
+ @param subdomain The subdomain to be connected to.
+ */
+- (void) setupSDKServerSubDomain:(NSString *)subdomain;
+
 
 - (void) initWithAPIKey:(NSString * _Nonnull)token
                  userId:(NSString * _Nonnull)userId

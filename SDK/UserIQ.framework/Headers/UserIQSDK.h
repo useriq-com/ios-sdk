@@ -23,9 +23,9 @@
 /**
  Only required for UserIQ developers. To be called before SDK initialization
 
- @param subdomain The subdomain to be connected to.
+ @param host The host to be connected to.
  */
-- (void) setupSDKServerSubDomain:(NSString *)subdomain;
+- (void) setHost:(NSString * _Nonnull)host;
 
 
 - (void) initWithAPIKey:(NSString * _Nonnull)token
@@ -44,6 +44,30 @@
  */
 + (NSString * _Nonnull) version;
 
+
+/**
+ Read from offline settings and disable all network calls
+ */
+- (void) offlineOnly;
+
+
+/**
+ Method to disable FAB button
+ */
+- (void)disableFAB;
+
+/**
+ Presents the contextual help for the current screen.
+
+ @return YES if ctxHelp is presented. NO if no ctxHelp is available.
+ */
+- (BOOL) showCtxHelp;
+
+
+/**
+ Presents the help center
+ */
+- (void) showHelpCentre;
 
 /**
  Deactivate the SDK

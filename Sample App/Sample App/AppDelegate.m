@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[UserIQSDK sharedInstance] initWithAPIKey:@"f6de7b25ee0bc4bc4f02b5a51e3b0894e57e1deb"
+    [[UserIQSDK sharedInstance] initWithAPIKey:@"9d36faecef6a1efa6d808509785d4fc53a2bf37f"
                                         userId:@"EMP124"
                                           name:@"Alex"
                                          email:@"alex@useriq.com"

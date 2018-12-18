@@ -19,7 +19,7 @@ If you are using Cocoapods or Carthage, skip Step 1 & Step 2, go directly to [St
 Add
 
 ```
-  pod 'UserIQ', '~> 1.0'
+  pod 'UserIQ', '~> 2.0'
 ```
 
 to your Podfile.
@@ -109,3 +109,47 @@ The **_UserIQ.framework_** is to be copied into your project folder.
   ```
 
   Note - The **_API-KEY_** can be obtained from the integration page of your app in the UserIQ dashboard.
+
+### PUBLIC APIs
+
+- Displaying contextual help manually. This method on being invoked returns `true` if the SDK was able to display the contextual help successfully, returns `false` if it fails.
+
+  Swift :
+
+  ```Swift
+  let ctxHelpSuccess = UserIQSDK.sharedInstance().showCtxHelp()
+  ```
+
+  Objective-C :
+
+  ```Objective-C
+  BOOL ctxHelpSuccess = [[UserIQSDK sharedInstance] showCtxHelp];
+  ```
+
+- Displaying the helpcenter manually.
+
+  Swift :
+
+  ```Swift
+  UserIQSDK.sharedInstance().showHelpCentre()
+  ```
+
+  Objective-C:
+
+  ```Objective-C
+  [[UserIQSDK sharedInstance] showHelpCentre];
+  ```
+
+- Disabling fab. When this API is called, it permanently disables the FAB button. All the other FAB settings are overridden.
+
+  Swift :
+
+  ```Swift
+  UserIQSDK.sharedInstance().disableFAB()
+  ```
+
+  Objective-C :
+
+  ```Objective-C
+  [[UserIQSDK sharedInstance] disableFAB];
+  ```

@@ -3,11 +3,30 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.0.0] - 2018-12-18
+
+#### Added
+
+- NPS Surveys (3 types)
+- Rating Surveys (3 types)
+- Walkthroughs (Beacons, Numbered & Tooltips)
+  - Both single step and multiple steps in the same screen.
+  - Cross screen walkthroughs with step triggers
+- Helpcenter
+  - Supports rich text format
+  - Ability to add images (auto cached on device)
+  - Ability to export walkthrough’s into questions
+- Contextual Help
+  - Configurable guide on per screen basis
+  - Allow manual triggers of FAQ's & Walkthroughs
+
+---
+
 ### [1.0.3] - 2018-07-20
 
 #### Added
 
-- Host support 
+- Host support
 
 ---
 
@@ -24,7 +43,8 @@ All notable changes in iOS SDK are documented here. We adhere to
 
 #### Fixed
 
-* Bug Fix : Text color change for in-app modal heading and body
+- Bug Fix : Text color change for in-app modal heading and body
+
 ---
 
 ### [1.0.0] - 2018-06-29

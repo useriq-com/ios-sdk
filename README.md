@@ -153,3 +153,27 @@ The **_UserIQ.framework_** is to be copied into your project folder.
   ```Objective-C
   [[UserIQSDK sharedInstance] disableFAB];
   ```
+
+  #### InApp-Notification
+
+  ![](Images/InAppModal.gif)
+
+  #### NPS
+
+  ![](Images/NPSHeader.gif)
+
+  #### StarRating
+
+  ![](Images/RatingFooter.gif)
+
+  #### Walkthrough
+
+  ![](Images/Walkthrough.gif)
+
+  #### Contextual Help
+
+  ![](Images/CtxHelp.gif)
+
+  #### HelpCentre
+
+  ![](Images/Helpcenter.gif)

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UserIQ"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "USER ONBOARDING & SELF HELP FOR MOBILE"
   s.description  = <<-DESC 
   					Codeless analytics, in-app messaging and customer health for iOS apps.

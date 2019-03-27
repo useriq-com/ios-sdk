@@ -3,6 +3,11 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.0.1] - 2019-03-27
+
+#### Fixed
+ - Minor bug fixes
+
 ### [2.0.0] - 2018-12-18
 
 #### Added

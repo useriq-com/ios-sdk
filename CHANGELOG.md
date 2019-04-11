@@ -3,6 +3,11 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.0.2] - 2019-04-11
+
+#### Fixed
+ - Bug Fix : FAB button pushed to front even if new view is added in top layer
+
 ### [2.0.1] - 2019-03-27
 
 #### Fixed

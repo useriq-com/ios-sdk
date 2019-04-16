@@ -21,7 +21,7 @@
                                         userId:@"EMP124"
                                           name:@"Alex"
                                          email:@"alex@useriq.com"
-                                     accountId:1
+                                     accountId:@"1"
                                    accountName:@"Acme Corp"
                                     signupDate:@"2017-04-21"
                                  andParameters:@{@"location":@"Atlanta"}];

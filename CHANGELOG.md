@@ -3,6 +3,11 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.0.3] - 2019-04-16
+
+#### Added
+ - New api for setting user. This can be used to log in and logout user. Keep a standard user info for logged out users for tracking purposes.
+
 ### [2.0.2] - 2019-04-11
 
 #### Fixed

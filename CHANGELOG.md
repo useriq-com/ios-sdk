@@ -3,6 +3,11 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.0.4] - 2019-04-18
+
+#### Added
+ - Bitcode enabled framework
+
 ### [2.0.3] - 2019-04-16
 
 #### Added

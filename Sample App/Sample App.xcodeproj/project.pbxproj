@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2089CB922662C3700470598 /* UserIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2089CB822662C3700470598 /* UserIQ.framework */; };
-		F2089CBA22662C3700470598 /* UserIQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2089CB822662C3700470598 /* UserIQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F23429552268A065006FB734 /* UserIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23429542268A065006FB734 /* UserIQ.framework */; };
+		F23429562268A065006FB734 /* UserIQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F23429542268A065006FB734 /* UserIQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2B4B6AB20E66139001E041B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B4B6AA20E66139001E041B /* AppDelegate.m */; };
 		F2B4B6AE20E66139001E041B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B4B6AD20E66139001E041B /* ViewController.m */; };
 		F2B4B6B120E66139001E041B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B4B6AF20E66139001E041B /* Main.storyboard */; };
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F2089CBA22662C3700470598 /* UserIQ.framework in Embed Frameworks */,
+				F23429562268A065006FB734 /* UserIQ.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F2089CB822662C3700470598 /* UserIQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserIQ.framework; sourceTree = "<group>"; };
+		F23429542268A065006FB734 /* UserIQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserIQ.framework; sourceTree = "<group>"; };
 		F2B4B6A620E66139001E041B /* Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B4B6A920E66139001E041B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2B4B6AA20E66139001E041B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2089CB922662C3700470598 /* UserIQ.framework in Frameworks */,
+				F23429552268A065006FB734 /* UserIQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 		F2B4B69D20E66138001E041B = {
 			isa = PBXGroup;
 			children = (
-				F2089CB822662C3700470598 /* UserIQ.framework */,
+				F23429542268A065006FB734 /* UserIQ.framework */,
 				F2B4B6A820E66139001E041B /* Sample App */,
 				F2B4B6A720E66139001E041B /* Products */,
 			);

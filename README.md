@@ -84,7 +84,7 @@ The **_UserIQ.framework_** is to be copied into your project folder.
         userId: "EMP124",
         name: "Alex",
         email: "alex@useriq.com",
-        accountId: 1,
+        accountId: "1",
         accountName: "Acme Corp",
         signupDate: "2017-04-21",
         andParameters: ["location":"Atlanta"]
@@ -101,7 +101,7 @@ The **_UserIQ.framework_** is to be copied into your project folder.
                                         userId:@"EMP124"
                                           name:@"Alex"
                                          email:@"alex@useriq.com"
-                                     accountId:1
+                                     accountId:@"1"
                                    accountName:@"Acme Corp"
                                     signupDate:@"2017-04-21"
                                  andParameters:@{@"location":@"Atlanta"}];

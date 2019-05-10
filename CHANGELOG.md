@@ -3,6 +3,11 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.0.4] - 2019-05-11
+
+#### Updated
+ - Reuse existing websocket when setUser is called
+
 ### [2.0.4] - 2019-04-18
 
 #### Added

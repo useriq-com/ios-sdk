@@ -3,30 +3,53 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-### [2.0.4] - 2019-05-11
+### [2.1.0] - 2019-05-30
+
+#### Added
+
+- Landscape Orientation support (on Dashboard)
+- Performance tracking for screen change
 
 #### Updated
- - Reuse existing websocket when setUser is called
+
+- Improved screen identification (4x to 10x faster)
+- Added event tracking for campaings (walkthrough & campaigns)
+
+#### Fixed
+
+- Fixed React Native screen identification
+- Fixed React Native click tracking
+- Other minor bug fixes
+
+### [2.0.5] - 2019-05-11
+
+#### Updated
+
+- Reuse existing websocket when setUser is called
 
 ### [2.0.4] - 2019-04-18
 
 #### Added
- - Bitcode enabled framework
+
+- Bitcode enabled framework
 
 ### [2.0.3] - 2019-04-16
 
 #### Added
- - New api for setting user. This can be used to log in and logout user. Keep a standard user info for logged out users for tracking purposes.
+
+- New api for setting user. This can be used to log in and logout user. Keep a standard user info for logged out users for tracking purposes.
 
 ### [2.0.2] - 2019-04-11
 
 #### Fixed
- - Bug Fix : FAB button pushed to front even if new view is added in top layer
+
+- Bug Fix : FAB button pushed to front even if new view is added in top layer
 
 ### [2.0.1] - 2019-03-27
 
 #### Fixed
- - Minor bug fixes
+
+- Minor bug fixes
 
 ### [2.0.0] - 2018-12-18
 

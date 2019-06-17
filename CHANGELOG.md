@@ -3,6 +3,23 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.2.0] - 2019-06-17
+
+#### Added
+
+- Automatic/Manual tooltip positioning support (2 positions)
+- Automatic/Manual beacon and number tooltip positioning support (9 positions)
+- Support for `x` and `y` offsets for tooltips
+- Ability to make walkthorugh wait for the next step for a specific amount of time
+- Keyboard support for simulators (on Dashboard)
+- Copy/Paste support for simulators (on Dashboard)
+
+#### Updated
+
+- Improved screen identification (5x to 8x faster)
+
+---
+
 ### [2.1.0] - 2019-05-30
 
 #### Added
@@ -21,11 +38,15 @@ All notable changes in iOS SDK are documented here. We adhere to
 - Fixed React Native click tracking
 - Other minor bug fixes
 
+---
+
 ### [2.0.5] - 2019-05-11
 
 #### Updated
 
 - Reuse existing websocket when setUser is called
+
+---
 
 ### [2.0.4] - 2019-04-18
 
@@ -33,11 +54,15 @@ All notable changes in iOS SDK are documented here. We adhere to
 
 - Bitcode enabled framework
 
+---
+
 ### [2.0.3] - 2019-04-16
 
 #### Added
 
 - New api for setting user. This can be used to log in and logout user. Keep a standard user info for logged out users for tracking purposes.
+
+---
 
 ### [2.0.2] - 2019-04-11
 
@@ -45,11 +70,15 @@ All notable changes in iOS SDK are documented here. We adhere to
 
 - Bug Fix : FAB button pushed to front even if new view is added in top layer
 
+---
+
 ### [2.0.1] - 2019-03-27
 
 #### Fixed
 
 - Minor bug fixes
+
+---
 
 ### [2.0.0] - 2018-12-18
 

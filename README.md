@@ -68,7 +68,7 @@ The **_UserIQ.framework_** is to be copied into your project folder.
 
   Objective-C:
 
-  ```Objective-C
+  ```objc
     #import <UserIQ/UserIQ.h>
   ```
 
@@ -94,7 +94,7 @@ The **_UserIQ.framework_** is to be copied into your project folder.
 
   Objective-C :
 
-  ```Objective-C
+  ```objc
     -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
       // Override point for customization after application launch.
       [[UserIQSDK sharedInstance] initWithAPIKey:@"<YOUR-API-KEY>"
@@ -123,7 +123,7 @@ Swift :
 
 Objective-C :
 
-```Objective-C
+```objc
      andParameters:@{@"location":@"Atlanta", @"Foo":@"Bar", @"Foo1":@"Bar1"}
 
 ```
@@ -140,7 +140,7 @@ Objective-C :
 
   Objective-C :
 
-  ```Objective-C
+  ```objc
   BOOL ctxHelpSuccess = [[UserIQSDK sharedInstance] showCtxHelp];
   ```
 
@@ -154,7 +154,7 @@ Objective-C :
 
   Objective-C:
 
-  ```Objective-C
+  ```objc
   [[UserIQSDK sharedInstance] showHelpCentre];
   ```
 
@@ -168,7 +168,7 @@ Objective-C :
 
   Objective-C :
 
-  ```Objective-C
+  ```objc
   [[UserIQSDK sharedInstance] disableFAB];
   ```
 

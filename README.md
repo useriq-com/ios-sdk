@@ -19,7 +19,7 @@ If you are using Cocoapods or Carthage, skip Step 1 & Step 2, go directly to [St
 Add
 
 ```
-  pod 'UserIQ', '~> 2.2'
+  pod 'UserIQ', '~> 2.3'
 ```
 
 to your Podfile.
@@ -78,7 +78,6 @@ The **_UserIQ.framework_** is to be copied into your project folder.
 
   ```Swift
     func application(_application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-      //Override point for customization after application launch.
       UserIQSDK.sharedInstance().initWithAPIKey(
         "<YOUR-API-KEY>",
         userId: "EMP124",

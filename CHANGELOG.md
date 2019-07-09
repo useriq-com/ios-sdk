@@ -3,6 +3,18 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.3.0] - 2019-07-09
+
+#### Added
+
+- New campaign button action support: `Open Question` & `Start Walkthrough`
+
+#### Updated
+
+- Improved UI for helpcenter
+
+---
+
 ### [2.2.0] - 2019-06-17
 
 #### Added

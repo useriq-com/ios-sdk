@@ -27,6 +27,14 @@
  */
 - (void) setHost:(NSString * _Nonnull)host;
 
+/**
+ Method to set api key. Does not the initiate the SDK.
+ Wait for user to be set to initiate the SDK.
+
+ @param apiKey api key available from useriq dashboard
+ */
+- (void) initWithAPIKey:(NSString * _Nonnull)apiKey;
+
 
 /**
  Method to initialize SDK with all user info. If user info is not available initially, empty values has to be passed. And later when the user info is available the setUser method can be called
@@ -37,7 +45,7 @@
  @param email email of the user
  @param accId account of the user
  @param accName account name of the user
- @param signupDate of the user
+ @param signupDate signup date of the user
  @param parameters additional parameters as key-value pairs relevant to user
  */
 - (void) initWithAPIKey:(NSString * _Nonnull)token
@@ -50,7 +58,9 @@
           andParameters:(NSDictionary <NSString *, NSString*> * _Nullable)parameters;
 
 /**
- Method to set/reset user. If the SDK is not initialized till now. It will initialize the SDK.
+ Method to set/reset user.
+ 
+ If you are setting the user for the first time after the app launch using this method, it should be only called after api key has been already set using one of the `initWithAPIKey` methods.
 
  @param userId userid of the user
  @param name name of the user
@@ -60,6 +70,7 @@
  @param signupDate of the user
  @param parameters additional parameters as key-value pairs relevant to user
  */
+
 - (void) setUserId:(NSString * _Nonnull)userId
               name:(NSString * _Nonnull)name
              email:(NSString * _Nonnull)email

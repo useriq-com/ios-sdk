@@ -3,6 +3,14 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.3.1] - 2019-07-11
+
+#### Fixed
+
+- Back button fix in help center in iPhones with notch
+
+---
+
 ### [2.3.0] - 2019-07-09
 
 #### Added

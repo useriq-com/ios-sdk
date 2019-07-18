@@ -3,6 +3,14 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.3.2] - 2019-07-18
+
+#### Fixed
+
+- Minor bug fixes for Xamarin support
+
+---
+
 ### [2.3.1] - 2019-07-11
 
 #### Fixed

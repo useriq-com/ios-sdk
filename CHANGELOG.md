@@ -8,8 +8,8 @@ All notable changes in iOS SDK are documented here. We adhere to
 #### Added
 
 - Comment box support in NPS & Star campaigns
-- New campaign button action support: `OPEN_WEBVIEW`; Opens desired url in a webview in the app
-- Load balancer support in fetching host url
+- New campaign button action `OPEN_WEBVIEW`. Opens a url inside webview in the app.
+- Load balancer support for SDK endpoint
 
 #### Updated
 

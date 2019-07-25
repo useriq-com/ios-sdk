@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F212944B22EA2FED00C3A073 /* UserIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F212944A22EA2FED00C3A073 /* UserIQ.framework */; };
+		F212944C22EA2FED00C3A073 /* UserIQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F212944A22EA2FED00C3A073 /* UserIQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2B4B6AB20E66139001E041B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B4B6AA20E66139001E041B /* AppDelegate.m */; };
 		F2B4B6AE20E66139001E041B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B4B6AD20E66139001E041B /* ViewController.m */; };
 		F2B4B6B120E66139001E041B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B4B6AF20E66139001E041B /* Main.storyboard */; };
 		F2B4B6B320E6613B001E041B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B4B6B220E6613B001E041B /* Assets.xcassets */; };
 		F2B4B6B620E6613B001E041B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B4B6B420E6613B001E041B /* LaunchScreen.storyboard */; };
 		F2B4B6B920E6613B001E041B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B4B6B820E6613B001E041B /* main.m */; };
-		F2FBD4B522E0920F007000EB /* UserIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FBD4B422E0920F007000EB /* UserIQ.framework */; };
-		F2FBD4B622E0920F007000EB /* UserIQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2FBD4B422E0920F007000EB /* UserIQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F2FBD4B622E0920F007000EB /* UserIQ.framework in Embed Frameworks */,
+				F212944C22EA2FED00C3A073 /* UserIQ.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F212944A22EA2FED00C3A073 /* UserIQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserIQ.framework; sourceTree = "<group>"; };
 		F2B4B6A620E66139001E041B /* Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B4B6A920E66139001E041B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2B4B6AA20E66139001E041B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		F2B4B6B520E6613B001E041B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2B4B6B720E6613B001E041B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B4B6B820E6613B001E041B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2FBD4B422E0920F007000EB /* UserIQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserIQ.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FBD4B522E0920F007000EB /* UserIQ.framework in Frameworks */,
+				F212944B22EA2FED00C3A073 /* UserIQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 		F2B4B69D20E66138001E041B = {
 			isa = PBXGroup;
 			children = (
-				F2FBD4B422E0920F007000EB /* UserIQ.framework */,
+				F212944A22EA2FED00C3A073 /* UserIQ.framework */,
 				F2B4B6A820E66139001E041B /* Sample App */,
 				F2B4B6A720E66139001E041B /* Products */,
 			);

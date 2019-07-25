@@ -3,6 +3,20 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.4.0] - 2019-07-25
+
+#### Added
+
+- Comment box support in NPS & Star campaigns
+- New campaign button action support: `OPEN_WEBVIEW`; Opens desired url in a webview in the app
+- Load balancer support in fetching host url
+
+#### Updated
+
+- Improved retry connection mechanism
+
+---
+
 ### [2.3.2] - 2019-07-18
 
 #### Fixed

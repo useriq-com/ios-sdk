@@ -3,6 +3,14 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.4.1] - 2019-08-08
+
+#### Updated
+
+- Exposed `APP_FOREGROUND` event to dashboard
+
+---
+
 ### [2.4.0] - 2019-07-25
 
 #### Added

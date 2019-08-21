@@ -126,3 +126,5 @@ Objective-C :
      andParameters:@{@"location":@"Atlanta", @"Foo":@"Bar", @"Foo1":@"Bar1"}
 
 ```
+
+For more details on API & usage, please refer to [wiki page](https://github.com/useriq-com/ios-sdk/wiki)

@@ -3,6 +3,18 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.4.2] - 2019-08-30
+
+#### Added
+
+- Animation support for inapp messages
+
+#### Update
+
+- App logo capture in Xamarin apps
+
+---
+
 ### [2.4.1] - 2019-08-08
 
 #### Updated

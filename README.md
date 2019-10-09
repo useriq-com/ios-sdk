@@ -19,7 +19,7 @@ If you are using Cocoapods or Carthage, skip Step 1 & Step 2, go directly to [St
 Add
 
 ```
-  pod 'UserIQ', '~> 2.4'
+  pod 'UserIQ', '~> 2.5'
 ```
 
 to your Podfile.

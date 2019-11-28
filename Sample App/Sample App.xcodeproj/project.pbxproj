@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F249938F238FE6630069371C /* UserIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D4E9EF23744F1D00998739 /* UserIQ.framework */; };
+		F2499390238FE6630069371C /* UserIQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2D4E9EF23744F1D00998739 /* UserIQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F2B4B6AB20E66139001E041B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B4B6AA20E66139001E041B /* AppDelegate.m */; };
 		F2B4B6AE20E66139001E041B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B4B6AD20E66139001E041B /* ViewController.m */; };
 		F2B4B6B120E66139001E041B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B4B6AF20E66139001E041B /* Main.storyboard */; };
 		F2B4B6B320E6613B001E041B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B4B6B220E6613B001E041B /* Assets.xcassets */; };
 		F2B4B6B620E6613B001E041B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B4B6B420E6613B001E041B /* LaunchScreen.storyboard */; };
 		F2B4B6B920E6613B001E041B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B4B6B820E6613B001E041B /* main.m */; };
-		F2D4E9F023744F1D00998739 /* UserIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D4E9EF23744F1D00998739 /* UserIQ.framework */; };
-		F2D4E9F123744F1D00998739 /* UserIQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F2D4E9EF23744F1D00998739 /* UserIQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F2089CBB22662C3700470598 /* Embed Frameworks */ = {
+		F2499391238FE6630069371C /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F2D4E9F123744F1D00998739 /* UserIQ.framework in Embed Frameworks */,
+				F2499390238FE6630069371C /* UserIQ.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D4E9F023744F1D00998739 /* UserIQ.framework in Frameworks */,
+				F249938F238FE6630069371C /* UserIQ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +108,7 @@
 				F2B4B6A220E66139001E041B /* Sources */,
 				F2B4B6A320E66139001E041B /* Frameworks */,
 				F2B4B6A420E66139001E041B /* Resources */,
-				F2089CBB22662C3700470598 /* Embed Frameworks */,
+				F2499391238FE6630069371C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

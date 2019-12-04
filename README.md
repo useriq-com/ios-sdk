@@ -8,9 +8,12 @@ This guide will provide you with step by step details on how to integrate the SD
 
 ## Steps to integrate the sdk to your Xcode - iOS project
 
-- [Step 1 : Download the UserIQ framework](#step-1--download-the-useriq-framework)
-- [Step 2 : Attach UserIQ framework to your iOS project](#step-2--attach-useriq-framework-to-your-ios-project)
-- [Step 3 : Initiate the UserIQ framework](#step-3--initiate-the-useriq-framework)
+- [Step 1 : Download the UserIQ framework](https://github.com/useriq-com/ios-sdk#step-1--download-the-useriq-framework)
+- [Step 2 : Attach UserIQ framework to your iOS project](https://github.com/useriq-com/ios-sdk#step-2--attach-useriq-framework-to-your-ios-project)
+- [Step 3 : Initiate the UserIQ framework](https://github.com/useriq-com/ios-sdk#step-3--initiate-the-useriq-framework)
+- [Step 4 : Set the user after login](https://github.com/useriq-com/ios-sdk#step-4--set-the-user-after-login)
+- [Step 5 : Add the custom parameters (optional)](https://github.com/useriq-com/ios-sdk#step-5--add-the-custom-parameters-optional)
+- [Step 6 : Logout](https://github.com/useriq-com/ios-sdk#step-6--logout)
 
 If you are using Cocoapods or Carthage, skip Step 1 & Step 2, go directly to [Step 3](#Step-3--Initiate-the-useriq-framework).
 
@@ -78,16 +81,7 @@ The **_UserIQ.framework_** is to be copied into your project folder.
 
   ```Swift
     func application(_application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-      UserIQSDK.sharedInstance().initWithAPIKey(
-        "<YOUR-API-KEY>",
-        userId: "EMP124",
-        name: "Alex",
-        email: "alex@useriq.com",
-        accountId: "1",
-        accountName: "Acme Corp",
-        signupDate: "2017-04-21",
-        andParameters: ["location":"Atlanta"]
-      )
+      UserIQSDK.sharedInstance().initWithAPIKey("<YOUR-API-KEY>")
     }
   ```
 
@@ -96,36 +90,76 @@ The **_UserIQ.framework_** is to be copied into your project folder.
   ```objc
     -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
       // Override point for customization after application launch.
-      [[UserIQSDK sharedInstance] initWithAPIKey:@"<YOUR-API-KEY>"
-                                        userId:@"EMP124"
-                                          name:@"Alex"
-                                         email:@"alex@useriq.com"
-                                     accountId:@"1"
-                                   accountName:@"Acme Corp"
-                                    signupDate:@"2017-04-21"
-                                 andParameters:@{@"location":@"Atlanta"}];
+      [[UserIQSDK sharedInstance] initWithAPIKey:@"<YOUR-API-KEY>"];
     }
   ```
 
-  Note - The **_API-KEY_** can be obtained from the integration page of your app in the UserIQ dashboard.
+  Note - The **_API-KEY_** can be obtained from the integration page of your app in the UserIQ dashboard. 
+  
+  This API will initialise the SDK with an anonymous user.
 
-### Step 4: Add the custom parameters (optional)
 
-Add any custom attributes about the user in andParameters(String key, String value)
+### Step 4 : Set the user after login
 
-Swift :
+- Once user has logged in, the anonymous user can be changed to the current user using the `setUser` API as shown below. Import the UserIQ SDK in the file (similar to in the previous step) where you receive the user info.
+  
+  Swift :
 
-```Swift
+  ```Swift
+    UserIQSDK.sharedInstance().setUserId("EMP124",
+                                      name: "Alex",
+                                      email: "alex@useriq.com",
+                                      accountId: "1",
+                                      accountName: "Acme Corp",
+                                      signupDate: "2017-11-29",
+                                      andParameters: ["location":"Atlanta"])
+  ```
+
+  Objective-C:
+
+  ```objc
+    [[UserIQSDK sharedInstance] setUserId:@"EMP124"
+                                     name:@"Alex"
+                                    email:@"alex@useriq.com"
+                                accountId:@"1"
+                              accountName:@"Acme Corp"
+                               signupDate:@"2017-11-29"
+                            andParameters:@{@"location":@"Atlanta"}];
+  ```
+  Note - Make sure this api is called on every launch of the app if the app keep users logged in until user manually logs out.
+
+
+### Step 5 : Add the custom parameters (optional)
+
+- Add any custom attributes about the user in andParameters(String key, String value)
+
+  Swift :
+
+  ```Swift
      andParameters: ["location":"Atlanta", "Foo":"Bar", "Foo1": "Bar1"]
+  ```
 
-```
+  Objective-C :
 
-Objective-C :
-
-```objc
+  ```objc
      andParameters:@{@"location":@"Atlanta", @"Foo":@"Bar", @"Foo1":@"Bar1"}
+  ```
 
-```
+### Step 6 : Logout 
+
+- If a user logs out, the user can be reset to anonymous user just by calling the `logout` API. Make sure this method is called when the user logs out, so that login screen tracking and other information not related to the user does not get linked to the user.
+
+  Swift : 
+
+  ```Swift
+    UserIQSDK.sharedInstance().logout()
+  ```
+
+  Objective-C : 
+
+  ```objc
+    [[UserIQSDK sharedInstance] logout];
+  ```
 
 # API & USAGE
 

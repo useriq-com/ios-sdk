@@ -28,10 +28,9 @@
 - (void) setHost:(NSString * _Nonnull)host;
 
 /**
- Method to set api key. Does not the initiate the SDK.
- Wait for user to be set to initiate the SDK.
+ Method to set api key. Initiates the SDK with an anonymous user
 
- @param apiKey api key available from useriq dashboard
+ @param apiKey api key available from useriq dashboard. Will setup an anonymous user and initiate the SDK. The actual user info can be passed after the user logins using the  -setUserId: name: email: accountId: accountName: signupDate: andParameters: API
  */
 - (void) initWithAPIKey:(NSString * _Nonnull)apiKey;
 
@@ -55,7 +54,7 @@
               accountId:(NSString * _Nonnull)accId
             accountName:(NSString * _Nonnull)accName
              signupDate:(NSString * _Nullable)signupDate
-          andParameters:(NSDictionary <NSString *, NSString*> * _Nullable)parameters;
+          andParameters:(NSDictionary <NSString *, NSString*> * _Nullable)parameters  __attribute__((deprecated));
 
 /**
  Method to set/reset user.
@@ -79,19 +78,18 @@
         signupDate:(NSString * _Nullable)signupDate
      andParameters:(NSDictionary <NSString *, NSString*> * _Nullable)parameters;
 
+
+/**
+Method to be called when user logs out. The user is reset to anonymous user automatically here.
+ */
+- (void) logout;
+
 /**
  Get the version of the UserIQ SDK
 
  @return version
  */
 + (NSString * _Nonnull) version;
-
-
-/**
- Read from offline settings and disable all network calls
- */
-- (void) offlineOnly;
-
 
 /**
  Method to disable FAB button
@@ -110,12 +108,5 @@
  Presents the help center
  */
 - (void) showHelpCentre;
-
-/**
- Deactivate the SDK
- */
-- (void) deactivateSDK;
-
-
 
 @end

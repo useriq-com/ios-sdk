@@ -3,6 +3,25 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.6.0] - 2019-12-04
+
+#### Added
+
+- Logout API.
+- SDK initialised with anonymous user when initWithAPIKey is called without setUser
+- Added provision for SDK kill switch.
+
+#### Updated
+
+- Store additional parameters for same user in case of multiple `setUser` calls
+
+#### Removed
+
+- deactivateSDK API
+- isOffline API
+
+---
+
 ### [2.5.2] - 2019-11-28
 
 #### Updated

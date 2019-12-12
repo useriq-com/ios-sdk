@@ -17,14 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[UserIQSDK sharedInstance] initWithAPIKey:@"9d36faecef6a1efa6d808509785d4fc53a2bf37f"
-                                        userId:@"EMP124"
-                                          name:@"Alex"
-                                         email:@"alex@useriq.com"
-                                     accountId:@"1"
-                                   accountName:@"Acme Corp"
-                                    signupDate:@"2017-04-21"
-                                 andParameters:@{@"location":@"Atlanta"}];
+    [[UserIQSDK sharedInstance] initWithAPIKey:@"9d36faecef6a1efa6d808509785d4fc53a2bf37f"];
+    [[UserIQSDK sharedInstance] setUserId:@"EMP124"
+                                     name:@"Alex"
+                                    email:@"alex@useriq.com"
+                                accountId:@"1"
+                              accountName:@"Acme Corp"
+                               signupDate:@"2017-04-21"
+                            andParameters:@{@"location":@"Atlanta"}];
     return YES;
 }
 

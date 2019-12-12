@@ -3,6 +3,14 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.6.1] - 2019-12-12
+
+#### Fixed
+- Optimised click tracking (Eliminates traversal)
+- Ignored touch tracking for `UIScrollView` and `UITextField`
+
+---
+
 ### [2.6.0] - 2019-12-04
 
 #### Added

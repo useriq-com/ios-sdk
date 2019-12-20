@@ -3,6 +3,14 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.6.2] - 2019-12-20
+
+#### Fixed
+- Full screen support for `Help Center` in iOS 13
+- `Help Center` welcome text alignment set to left
+
+---
+
 ### [2.6.1] - 2019-12-12
 
 #### Fixed

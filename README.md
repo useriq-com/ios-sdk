@@ -94,15 +94,14 @@ The **_UserIQ.framework_** is to be copied into your project folder.
     }
   ```
 
-  Note - The **_API-KEY_** can be obtained from the integration page of your app in the UserIQ dashboard. 
-  
-  This API will initialise the SDK with an anonymous user.
+  Note - The **_API-KEY_** can be obtained from the integration page of your app in the UserIQ dashboard.
 
+  This API will initialise the SDK with an anonymous user.
 
 ### Step 4 : Set the user after login
 
 - Once user has logged in, the anonymous user can be changed to the current user using the `setUser` API as shown below. Import the UserIQ SDK in the file (similar to in the previous step) where you receive the user info.
-  
+
   Swift :
 
   ```Swift
@@ -126,8 +125,8 @@ The **_UserIQ.framework_** is to be copied into your project folder.
                                signupDate:@"2017-11-29"
                             andParameters:@{@"location":@"Atlanta"}];
   ```
-  Note - Make sure this api is called on every launch of the app if the app keep users logged in until user manually logs out.
 
+  Note - Make sure this api is called on every launch of the app if the app keep users logged in until user manually logs out.
 
 ### Step 5 : Add the custom parameters (optional)
 
@@ -145,17 +144,17 @@ The **_UserIQ.framework_** is to be copied into your project folder.
      andParameters:@{@"location":@"Atlanta", @"Foo":@"Bar", @"Foo1":@"Bar1"}
   ```
 
-### Step 6 : Logout 
+### Step 6 : Logout
 
 - If a user logs out, the user can be reset to anonymous user just by calling the `logout` API. Make sure this method is called when the user logs out, so that login screen tracking and other information not related to the user does not get linked to the user.
 
-  Swift : 
+  Swift :
 
   ```Swift
     UserIQSDK.sharedInstance().logout()
   ```
 
-  Objective-C : 
+  Objective-C :
 
   ```objc
     [[UserIQSDK sharedInstance] logout];

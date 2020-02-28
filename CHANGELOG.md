@@ -3,9 +3,18 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.6.3] - 2020-02-28
+
+#### Added
+
+- Additional Logging
+
+---
+
 ### [2.6.2] - 2019-12-20
 
 #### Fixed
+
 - Full screen support for `Help Center` in iOS 13
 - `Help Center` welcome text alignment set to left
 
@@ -14,6 +23,7 @@ All notable changes in iOS SDK are documented here. We adhere to
 ### [2.6.1] - 2019-12-12
 
 #### Fixed
+
 - Optimised click tracking (Eliminates traversal)
 - Ignored touch tracking for `UIScrollView` and `UITextField`
 
@@ -45,7 +55,6 @@ All notable changes in iOS SDK are documented here. We adhere to
 - Improved debug logging
 
 ---
-
 
 ### [2.5.1] - 2019-11-07
 

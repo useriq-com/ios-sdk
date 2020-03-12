@@ -40,7 +40,7 @@ to your Cartfile. In terminal, go to the folder of your project and enter `carth
 
 ### Step 1 : Download the UserIQ framework
 
-Download the UserIQ sdk from [here](http://mobile.useriq.com)
+Download the UserIQ sdk from [here](https://github.com/useriq-com/ios-sdk/releases)
 
 Alternatively you can clone the UserIQ github repo
 

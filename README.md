@@ -162,4 +162,4 @@ The **_UserIQ.framework_** is to be copied into your project folder.
 
 # API & USAGE
 
-For more details on API & usage, please refer to [wiki page](https://github.com/useriq-com/ios-sdk/wiki)
+For more details on API & their usage, please refer to [wiki page](https://github.com/useriq-com/ios-sdk/wiki)

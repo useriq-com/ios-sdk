@@ -3,6 +3,19 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.7.0] - 2020-06-29
+
+#### Added 
+
+- Launching InApp Modal from another InApp Modal
+
+#### Fixed
+
+- Improved Screen Identification for React-Native 
+- iOS 13 fix for UIWindow  
+
+---
+
 ### [2.6.3] - 2020-02-28
 
 #### Added

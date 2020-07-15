@@ -3,6 +3,15 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.7.1] - 2020-07-15
+
+#### Fixed
+
+- Proper cropping of images in campaigns
+- Headerview fix for campaign with webview
+
+---
+
 ### [2.7.0] - 2020-06-29
 
 #### Added 

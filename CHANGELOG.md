@@ -3,6 +3,15 @@
 All notable changes in iOS SDK are documented here. We adhere to
 [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+### [2.8.0] - 2020-09-01
+
+#### Added
+
+- Multiple lines support for Tooltip Description
+- tzOffset support for MobileAppEvents
+
+---
+
 ### [2.7.1] - 2020-07-15
 
 #### Fixed
